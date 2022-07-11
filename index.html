@@ -2,27 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survey Form</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id='title'>freeCodeCamp Survey Form </h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+<form id='survey-form' action='#' method="POST">
+  <label id='name-label' for='name'>Name</label>
+  <input id='name' type='text' placeholder='Enter your name' required />
+  <label id='email-label' for='email'>Email</label>
+  <input id='email' type='email' placeholder='Enter your email' required/>
+  <label id='number-label' for='number'>Age (optional)</label>
+  <input id='number' type='number' placeholder='Age' min='18' max='100'/>
+  
+  </form>
 
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    Hello World!,We are software developers.
-    
-    <script  src="js/index.js"></script>
   </body>
 </html>
